@@ -8,7 +8,7 @@ global ns nf nd
 $ns flush-trace
 close $nf
 close $nd
-exec nam prog4.nam &
+exec nam prog3.nam &
 exit 0
 }
 set n0 [$ns node]
